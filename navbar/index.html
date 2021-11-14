@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="top-navbar">
+        <div class="top-navbar__logo">
+          <img src="/izilogo.png" alt="logo" />
+        </div>
+        <form class="top-navbar__input">
+          <input placeholder="Wpisz nazwę części" type="text" />
+          <button><i class="fas fa-search"></i>Szukaj</button>
+        </form>
+        <div class="top-navbar__categories">
+          Przeglądaj kategorie <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="top-navbar__sellbtn">
+          <a href="/"><i class="fas fa-hand-holding-usd"></i>Sprzedaj</a>
+        </div>
+        <div class="top-navbar__account">
+          <i class="user fas fa-user-circle"></i>
+          <i class="arrow fas fa-chevron-down"></i>
+        </div>
+      </div>
+      <div class="side-navbar">
+        <div class="side-navbar__top">
+          <a href="/"><i class="fas fa-hand-holding-usd"></i>Sprzedaj</a>
+          <i class="side-navbar__top-icon fas fa-times"></i>
+        </div>
+        <div class="side-navbar__middle">
+          <ul>
+            <li>
+              <a href="/"><i class="fas fa-user"></i> Moje konto</a>
+            </li>
+            <li>
+              <a href="/"
+                ><i class="fas fa-shopping-cart"></i> Historia zakupów</a
+              >
+            </li>
+            <li>
+              <a href="/"><i class="fas fa-box-open"></i> Moje oferty</a>
+            </li>
+            <li>
+              <a href="/"
+                ><i class="fas fa-comments"></i> Komentarze
+                <div class="side-navbar__middle-dot">16</div></a
+              >
+            </li>
+            <li>
+              <a href="/"><i class="fas fa-cog"></i> Zarządzanie kontem</a>
+            </li>
+          </ul>
+        </div>
+        <div class="side-navbar__bottom">
+          <a href="/"><i class="fas fa-power-off"></i> Wyloguj</a>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
